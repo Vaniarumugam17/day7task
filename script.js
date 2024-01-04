@@ -6,7 +6,7 @@ var request = new XMLHttpRequest();
 //2nd step: API URL
 //.open method
 //2 parameters
-request.open("GET", "https://restcountries.com/v2/all");
+request.open("GET", "https://restcountries.com/v3.1/all");
 //3rd step : establishing the bridge
 request.send();
 //4th step : once the data sucessfully received from server
@@ -27,7 +27,7 @@ var request1 = new XMLHttpRequest();
 //2nd step: API URL
 //.open method
 //2 parameters
-request1.open("GET", "https://restcountries.com/v2/all");
+request1.open("GET", "https://restcountries.com/v3.1/all");
 //3rd step : establishing the bridge
 request1.send();
 //4th step : once the data sucessfully received from server
@@ -48,7 +48,7 @@ var requestt = new XMLHttpRequest();
 //2nd step: API URL
 //.open method
 //2 parameters
-requestt.open("GET", "https://restcountries.com/v2/all");
+requestt.open("GET", "https://restcountries.com/v3.1/all");
 //3rd step : establishing the bridge
 requestt.send();
 //4th step : once the data sucessfully received from server
@@ -70,7 +70,7 @@ var reques = new XMLHttpRequest();
 //2nd step: API URL
 //.open method
 //2 parameters
-reques.open("GET", "https://restcountries.com/v2/all");
+reques.open("GET", "https://restcountries.com/v3.1/all");
 //3rd step : establishing the bridge
 reques.send();
 //4th step : once the data sucessfully received from server
@@ -92,7 +92,7 @@ var req = new XMLHttpRequest();
 //2nd step: API URL
 //.open method
 //2 parameters
-req.open("GET", "https://restcountries.com/v2/all");
+req.open("GET", "https://restcountries.com/v3.1/all");
 //3rd step : establishing the bridge
 req.send();
 //4th step : once the data sucessfully received from server
